@@ -1,0 +1,4 @@
+1. x_s: 6.77 y_s: 7.20 theta_s: 3.14 x_f: 9.86 y_f: 7.20 theta_f: 3.14 type: p pallet_up: 0 pallet_st: 0 goal: 0
+2. x_s: 9.86 y_s: 7.20 theta_s: 3.14 x_f: 11.86 y_f: 6.20 theta_f: 1.57 type: s pallet_up: 0 pallet_st: 0 goal: 0
+3. x_s: 11.86 y_s: 6.20 theta_s: 1.57 x_f: 11.86 y_f: 5.20 theta_f: 1.57 type: p pallet_up: 0 pallet_st: 0 goal: 0
+4. x_s: 11.86 y_s: 5.20 theta_s: 1.57 x_f: 11.86 y_f: 3.56 theta_f: 1.57 type: s pallet_up: 1 pallet_st: 2 goal: 1

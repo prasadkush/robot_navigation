@@ -1,0 +1,25 @@
+global_frame: /map
+robot_base_frame: base_link
+update_frequency: 10.0
+publish_frequency: 10.0
+#footprint: [[-0.325, -0.425], [-0.325, 0.425], [0.325, 0.425], [0.46, 0.0], [0.325, -0.425]]
+#footprint_padding: 0.01
+#plugins:
+#    - {name: static_map,       type: "costmap_2d::StaticLayer"}
+#    - {name: inflation,     type: "costmap_2d::InflationLayer"}
+#    - {name: obstacles,        type: "costmap_2d::VoxelLayer"}
+#set if you want the voxel map published
+#publish_voxel_map: true
+#inflation: 
+  inflation_radius: 2.5
+#footprint: [[-0.325, -0.425], [-0.325, 0.425], [0.325, 0.425], [0.46, 0.0], [0.325, -0.425]]
+#footprint_padding: 0.01
+#footprint: [[-0.325, -0.05], [-0.325, 0.05], [0.325, 0.05], [0.425, 0.0], [0.325, -0.05]]
+#footprint_padding: 0.01
+robot_radius: 2.5
+lethal_cost_threshold: 70
+inscribed_cost_threshold: 55
+unknown_cost_value: 50
+#set to true if you want to initialize the costmap from a static map
+static_map: true
+#observation_sources: map
